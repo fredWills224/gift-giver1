@@ -37,5 +37,13 @@
     "enzyme-adapter-react-16": "^1.15.5",
     "enzyme-to-json": "^3.6.1",
     "jest-cli": "^26.4.2"
+  },
+  "jest":{
+    "collectCoverageFrom":[
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/tempPolyfills.js"
+    ]
   }
+
 }
